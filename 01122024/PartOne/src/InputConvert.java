@@ -18,6 +18,8 @@ public class InputConvert {
                 if (numbers.length == 2) { 
                     leftList.add(Integer.valueOf(numbers[0]));
                     rightList.add(Integer.valueOf(numbers[1]));
+                    // // output to console for debugging
+                    // System.out.println("Left: " + numbers[0] + " Right: " + numbers[1]);
                 }
             }
         } catch (IOException e) {

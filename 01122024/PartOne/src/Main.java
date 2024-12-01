@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         // File path for input
-        String filePath = "D:/Studium/AOC_2024/AdventOfCode2024/01122024/src/input.txt";
+        String filePath = "D:/Studium/AOC_2024/AdventOfCode2024/01122024/PartOne/src/input.txt"; 
 
         // Read the input file and get the two lists
         List<List<Integer>> lists = InputConvert.readFile(filePath);
